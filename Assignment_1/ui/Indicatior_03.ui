@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1367</width>
-    <height>775</height>
+    <width>1280</width>
+    <height>1024</height>
    </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>1024</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -19,14 +25,14 @@
   <widget class="QWidget" name="centralwidget">
    <property name="minimumSize">
     <size>
-     <width>1367</width>
-     <height>768</height>
+     <width>1280</width>
+     <height>1024</height>
     </size>
    </property>
    <property name="maximumSize">
     <size>
-     <width>1367</width>
-     <height>768</height>
+     <width>1280</width>
+     <height>1024</height>
     </size>
    </property>
    <layout class="QGridLayout" name="gridLayout">
@@ -47,11 +53,8 @@
     </property>
     <item row="0" column="0">
      <widget class="QWidget" name="widget_2" native="true">
-      <property name="minimumSize">
-       <size>
-        <width>800</width>
-        <height>0</height>
-       </size>
+      <property name="enabled">
+       <bool>true</bool>
       </property>
       <property name="font">
        <font>
@@ -67,9 +70,9 @@
       <widget class="QLabel" name="label_24">
        <property name="geometry">
         <rect>
-         <x>40</x>
-         <y>300</y>
-         <width>241</width>
+         <x>30</x>
+         <y>400</y>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -101,9 +104,9 @@ background-color: rgb(111, 170, 141);</string>
       <widget class="QLabel" name="label_25">
        <property name="geometry">
         <rect>
-         <x>360</x>
-         <y>300</y>
-         <width>241</width>
+         <x>340</x>
+         <y>400</y>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -134,9 +137,9 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_26">
        <property name="geometry">
         <rect>
-         <x>690</x>
-         <y>300</y>
-         <width>251</width>
+         <x>670</x>
+         <y>400</y>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -167,10 +170,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_5" native="true">
        <property name="geometry">
         <rect>
-         <x>60</x>
-         <y>160</y>
+         <x>50</x>
+         <y>180</y>
          <width>221</width>
-         <height>101</height>
+         <height>181</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -180,10 +183,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_6" native="true">
        <property name="geometry">
         <rect>
-         <x>370</x>
-         <y>160</y>
+         <x>360</x>
+         <y>180</y>
          <width>221</width>
-         <height>101</height>
+         <height>181</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -193,10 +196,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_8" native="true">
        <property name="geometry">
         <rect>
-         <x>710</x>
-         <y>160</y>
+         <x>690</x>
+         <y>180</y>
          <width>221</width>
-         <height>101</height>
+         <height>181</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -206,10 +209,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_7" native="true">
        <property name="geometry">
         <rect>
-         <x>1040</x>
-         <y>160</y>
+         <x>1020</x>
+         <y>180</y>
          <width>201</width>
-         <height>101</height>
+         <height>181</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -219,9 +222,9 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_27">
        <property name="geometry">
         <rect>
-         <x>1000</x>
-         <y>300</y>
-         <width>251</width>
+         <x>980</x>
+         <y>400</y>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -252,10 +255,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_12" native="true">
        <property name="geometry">
         <rect>
-         <x>60</x>
-         <y>350</y>
-         <width>211</width>
-         <height>101</height>
+         <x>50</x>
+         <y>460</y>
+         <width>221</width>
+         <height>171</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -265,10 +268,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_14" native="true">
        <property name="geometry">
         <rect>
-         <x>370</x>
-         <y>350</y>
+         <x>360</x>
+         <y>460</y>
          <width>221</width>
-         <height>101</height>
+         <height>171</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -278,10 +281,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_15" native="true">
        <property name="geometry">
         <rect>
-         <x>710</x>
-         <y>350</y>
+         <x>690</x>
+         <y>460</y>
          <width>221</width>
-         <height>101</height>
+         <height>171</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -291,10 +294,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_16" native="true">
        <property name="geometry">
         <rect>
-         <x>1030</x>
-         <y>350</y>
+         <x>1010</x>
+         <y>460</y>
          <width>211</width>
-         <height>101</height>
+         <height>171</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -305,8 +308,8 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>30</x>
-         <y>490</y>
-         <width>251</width>
+         <y>670</y>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -337,9 +340,9 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_29">
        <property name="geometry">
         <rect>
-         <x>690</x>
-         <y>490</y>
-         <width>251</width>
+         <x>670</x>
+         <y>670</y>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -370,9 +373,9 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_30">
        <property name="geometry">
         <rect>
-         <x>1000</x>
-         <y>490</y>
-         <width>251</width>
+         <x>980</x>
+         <y>670</y>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -403,8 +406,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_31">
        <property name="geometry">
         <rect>
-         <x>350</x>
-         <y>490</y>
+         <x>340</x>
+         <y>670</y>
          <width>261</width>
          <height>31</height>
         </rect>
@@ -437,9 +440,9 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>50</x>
-         <y>540</y>
+         <y>740</y>
          <width>221</width>
-         <height>111</height>
+         <height>181</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -449,10 +452,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_17" native="true">
        <property name="geometry">
         <rect>
-         <x>370</x>
-         <y>540</y>
+         <x>360</x>
+         <y>740</y>
          <width>221</width>
-         <height>111</height>
+         <height>181</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -462,10 +465,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_18" native="true">
        <property name="geometry">
         <rect>
-         <x>710</x>
-         <y>540</y>
+         <x>690</x>
+         <y>740</y>
          <width>221</width>
-         <height>121</height>
+         <height>181</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -475,10 +478,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="AnalogGaugeWidget" name="widget_19" native="true">
        <property name="geometry">
         <rect>
-         <x>1030</x>
-         <y>540</y>
+         <x>1010</x>
+         <y>740</y>
          <width>211</width>
-         <height>121</height>
+         <height>181</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -489,8 +492,8 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>30</x>
-         <y>700</y>
-         <width>251</width>
+         <y>960</y>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -521,8 +524,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_33">
        <property name="geometry">
         <rect>
-         <x>360</x>
-         <y>700</y>
+         <x>340</x>
+         <y>960</y>
          <width>261</width>
          <height>31</height>
         </rect>
@@ -540,7 +543,9 @@ color: rgb(255, 255, 255);</string>
         <cursorShape>WhatsThisCursor</cursorShape>
        </property>
        <property name="styleSheet">
-        <string notr="true"/>
+        <string notr="true"> border:None; border-radius: 15px; 
+background-color: rgb(111, 170, 141);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>59.59`C</string>
@@ -552,9 +557,9 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_34">
        <property name="geometry">
         <rect>
-         <x>710</x>
-         <y>700</y>
-         <width>221</width>
+         <x>670</x>
+         <y>960</y>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -572,6 +577,8 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true"> border:None; border-radius: 15px; 
+background-color: rgb(111, 170, 141);
+color: rgb(255, 255, 255);
 </string>
        </property>
        <property name="text">
@@ -584,9 +591,9 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_35">
        <property name="geometry">
         <rect>
-         <x>1030</x>
-         <y>690</y>
-         <width>211</width>
+         <x>990</x>
+         <y>960</y>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -604,6 +611,8 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true"> border:None; border-radius: 15px; 
+background-color: rgb(111, 170, 141);
+color: rgb(255, 255, 255);
 </string>
        </property>
        <property name="text">
@@ -616,8 +625,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label">
        <property name="geometry">
         <rect>
-         <x>60</x>
-         <y>265</y>
+         <x>70</x>
+         <y>365</y>
          <width>191</width>
          <height>31</height>
         </rect>
@@ -640,8 +649,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_2">
        <property name="geometry">
         <rect>
-         <x>380</x>
-         <y>270</y>
+         <x>370</x>
+         <y>370</y>
          <width>191</width>
          <height>21</height>
         </rect>
@@ -664,8 +673,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_3">
        <property name="geometry">
         <rect>
-         <x>710</x>
-         <y>270</y>
+         <x>700</x>
+         <y>370</y>
          <width>201</width>
          <height>21</height>
         </rect>
@@ -688,8 +697,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_4">
        <property name="geometry">
         <rect>
-         <x>1030</x>
-         <y>270</y>
+         <x>1020</x>
+         <y>370</y>
          <width>191</width>
          <height>21</height>
         </rect>
@@ -712,8 +721,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_5">
        <property name="geometry">
         <rect>
-         <x>50</x>
-         <y>460</y>
+         <x>70</x>
+         <y>638</y>
          <width>191</width>
          <height>21</height>
         </rect>
@@ -736,8 +745,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>380</x>
-         <y>460</y>
+         <x>370</x>
+         <y>640</y>
          <width>191</width>
          <height>21</height>
         </rect>
@@ -760,8 +769,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_7">
        <property name="geometry">
         <rect>
-         <x>710</x>
-         <y>460</y>
+         <x>690</x>
+         <y>640</y>
          <width>201</width>
          <height>21</height>
         </rect>
@@ -785,7 +794,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>1020</x>
-         <y>460</y>
+         <y>640</y>
          <width>191</width>
          <height>21</height>
         </rect>
@@ -808,8 +817,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_9">
        <property name="geometry">
         <rect>
-         <x>40</x>
-         <y>660</y>
+         <x>60</x>
+         <y>930</y>
          <width>191</width>
          <height>21</height>
         </rect>
@@ -833,7 +842,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>370</x>
-         <y>670</y>
+         <y>930</y>
          <width>211</width>
          <height>21</height>
         </rect>
@@ -856,8 +865,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_11">
        <property name="geometry">
         <rect>
-         <x>720</x>
-         <y>670</y>
+         <x>700</x>
+         <y>930</y>
          <width>191</width>
          <height>21</height>
         </rect>
@@ -881,7 +890,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>1030</x>
-         <y>670</y>
+         <y>930</y>
          <width>191</width>
          <height>21</height>
         </rect>
@@ -904,9 +913,9 @@ color: rgb(255, 255, 255);</string>
       <widget class="Line" name="line">
        <property name="geometry">
         <rect>
-         <x>50</x>
-         <y>130</y>
-         <width>1291</width>
+         <x>10</x>
+         <y>140</y>
+         <width>1261</width>
          <height>21</height>
         </rect>
        </property>
@@ -923,8 +932,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QProgressBar" name="sdf">
        <property name="geometry">
         <rect>
-         <x>60</x>
-         <y>100</y>
+         <x>40</x>
+         <y>110</y>
          <width>321</width>
          <height>23</height>
         </rect>
@@ -936,8 +945,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_13">
        <property name="geometry">
         <rect>
-         <x>70</x>
-         <y>12</y>
+         <x>50</x>
+         <y>22</y>
          <width>131</width>
          <height>21</height>
         </rect>
@@ -957,9 +966,9 @@ color: rgb(255, 255, 255);</string>
       <widget class="Line" name="line_2">
        <property name="geometry">
         <rect>
-         <x>50</x>
-         <y>40</y>
-         <width>1291</width>
+         <x>10</x>
+         <y>50</y>
+         <width>1261</width>
          <height>21</height>
         </rect>
        </property>
@@ -976,8 +985,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_14">
        <property name="geometry">
         <rect>
-         <x>70</x>
-         <y>60</y>
+         <x>50</x>
+         <y>70</y>
          <width>351</width>
          <height>31</height>
         </rect>
@@ -997,8 +1006,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_15">
        <property name="geometry">
         <rect>
-         <x>500</x>
-         <y>10</y>
+         <x>480</x>
+         <y>20</y>
          <width>81</width>
          <height>21</height>
         </rect>
@@ -1018,8 +1027,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_16">
        <property name="geometry">
         <rect>
-         <x>510</x>
-         <y>70</y>
+         <x>490</x>
+         <y>80</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -1039,8 +1048,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_17">
        <property name="geometry">
         <rect>
-         <x>640</x>
-         <y>10</y>
+         <x>620</x>
+         <y>20</y>
          <width>81</width>
          <height>21</height>
         </rect>
@@ -1060,8 +1069,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_18">
        <property name="geometry">
         <rect>
-         <x>640</x>
-         <y>70</y>
+         <x>620</x>
+         <y>80</y>
          <width>71</width>
          <height>21</height>
         </rect>
@@ -1081,8 +1090,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_19">
        <property name="geometry">
         <rect>
-         <x>800</x>
-         <y>10</y>
+         <x>780</x>
+         <y>20</y>
          <width>121</width>
          <height>21</height>
         </rect>
@@ -1102,8 +1111,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_20">
        <property name="geometry">
         <rect>
-         <x>800</x>
-         <y>70</y>
+         <x>780</x>
+         <y>80</y>
          <width>81</width>
          <height>21</height>
         </rect>
@@ -1123,8 +1132,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_21">
        <property name="geometry">
         <rect>
-         <x>960</x>
-         <y>10</y>
+         <x>940</x>
+         <y>20</y>
          <width>121</width>
          <height>21</height>
         </rect>
@@ -1144,8 +1153,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_22">
        <property name="geometry">
         <rect>
-         <x>970</x>
-         <y>70</y>
+         <x>950</x>
+         <y>80</y>
          <width>81</width>
          <height>21</height>
         </rect>
@@ -1168,8 +1177,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_23">
        <property name="geometry">
         <rect>
-         <x>1100</x>
-         <y>10</y>
+         <x>1080</x>
+         <y>20</y>
          <width>121</width>
          <height>21</height>
         </rect>
@@ -1189,8 +1198,8 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_36">
        <property name="geometry">
         <rect>
-         <x>1100</x>
-         <y>70</y>
+         <x>1080</x>
+         <y>80</y>
          <width>91</width>
          <height>21</height>
         </rect>
@@ -1213,9 +1222,9 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_37">
        <property name="geometry">
         <rect>
-         <x>1160</x>
-         <y>60</y>
-         <width>181</width>
+         <x>1130</x>
+         <y>70</y>
+         <width>141</width>
          <height>71</height>
         </rect>
        </property>
@@ -1250,8 +1259,8 @@ color: rgb(255, 0, 0);
       <widget class="QLabel" name="label_38">
        <property name="geometry">
         <rect>
-         <x>210</x>
-         <y>10</y>
+         <x>190</x>
+         <y>20</y>
          <width>141</width>
          <height>31</height>
         </rect>

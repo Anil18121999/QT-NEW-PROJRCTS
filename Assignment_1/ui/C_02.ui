@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1366</width>
-    <height>768</height>
+    <width>1280</width>
+    <height>1024</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>1024</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>1024</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -19,8 +31,8 @@
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>1321</width>
-      <height>701</height>
+      <width>1261</width>
+      <height>981</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -246,7 +258,7 @@ color: rgb(255, 0, 0);</string>
     <widget class="QLabel" name="label_6">
      <property name="geometry">
       <rect>
-       <x>1150</x>
+       <x>1080</x>
        <y>10</y>
        <width>161</width>
        <height>21</height>
@@ -274,7 +286,7 @@ color: rgb(255, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>140</x>
-       <y>630</y>
+       <y>880</y>
        <width>91</width>
        <height>61</height>
       </rect>
@@ -300,7 +312,7 @@ border-radius: 15px; </string>
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>630</y>
+       <y>880</y>
        <width>91</width>
        <height>61</height>
       </rect>
@@ -325,8 +337,8 @@ background-color: rgb(0, 180, 0);
     <widget class="QPushButton" name="pushButton_15">
      <property name="geometry">
       <rect>
-       <x>1200</x>
-       <y>650</y>
+       <x>1160</x>
+       <y>900</y>
        <width>81</width>
        <height>41</height>
       </rect>
@@ -352,7 +364,7 @@ color: rgb(255, 255, 255);
      <property name="geometry">
       <rect>
        <x>600</x>
-       <y>650</y>
+       <y>900</y>
        <width>341</width>
        <height>41</height>
       </rect>
@@ -378,8 +390,8 @@ color: rgb(255, 255, 255);
     <widget class="QComboBox" name="comboBox">
      <property name="geometry">
       <rect>
-       <x>990</x>
-       <y>580</y>
+       <x>930</x>
+       <y>820</y>
        <width>191</width>
        <height>41</height>
       </rect>
@@ -410,8 +422,8 @@ color: rgb(255, 255, 255);
     <widget class="QPushButton" name="pushButton_16">
      <property name="geometry">
       <rect>
-       <x>1200</x>
-       <y>580</y>
+       <x>1130</x>
+       <y>820</y>
        <width>111</width>
        <height>41</height>
       </rect>
@@ -437,22 +449,38 @@ color: rgb(255, 255, 255);
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>140</y>
-       <width>1301</width>
-       <height>411</height>
+       <y>150</y>
+       <width>1241</width>
+       <height>641</height>
       </rect>
      </property>
      <layout class="QGridLayout" name="gridLayout">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetNoConstraint</enum>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>6</number>
+      </property>
       <item row="0" column="0">
-       <widget class="QGraphicsView" name="graphicsView"/>
+       <widget class="QGraphicsView" name="graphicsView">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
     <widget class="QPushButton" name="pushButton_17">
      <property name="geometry">
       <rect>
-       <x>1090</x>
-       <y>650</y>
+       <x>1050</x>
+       <y>900</y>
        <width>81</width>
        <height>41</height>
       </rect>
@@ -477,8 +505,8 @@ color: rgb(255, 255, 255);
     <widget class="QPushButton" name="pushButton_18">
      <property name="geometry">
       <rect>
-       <x>990</x>
-       <y>650</y>
+       <x>940</x>
+       <y>900</y>
        <width>81</width>
        <height>41</height>
       </rect>
@@ -504,7 +532,7 @@ color: rgb(255, 255, 255);
      <property name="geometry">
       <rect>
        <x>260</x>
-       <y>630</y>
+       <y>880</y>
        <width>91</width>
        <height>61</height>
       </rect>
@@ -529,9 +557,9 @@ border-radius: 15px; </string>
     <widget class="QLabel" name="label_7">
      <property name="geometry">
       <rect>
-       <x>880</x>
-       <y>570</y>
-       <width>101</width>
+       <x>840</x>
+       <y>820</y>
+       <width>91</width>
        <height>41</height>
       </rect>
      </property>
@@ -554,7 +582,7 @@ border-radius: 15px; </string>
      <property name="geometry">
       <rect>
        <x>370</x>
-       <y>650</y>
+       <y>900</y>
        <width>121</width>
        <height>41</height>
       </rect>
@@ -578,7 +606,7 @@ border-radius: 15px; </string>
      <property name="geometry">
       <rect>
        <x>510</x>
-       <y>650</y>
+       <y>900</y>
        <width>71</width>
        <height>41</height>
       </rect>
@@ -601,8 +629,8 @@ border-radius: 15px; </string>
     <widget class="QLabel" name="label_10">
      <property name="geometry">
       <rect>
-       <x>490</x>
-       <y>570</y>
+       <x>480</x>
+       <y>820</y>
        <width>241</width>
        <height>41</height>
       </rect>
@@ -625,9 +653,9 @@ border-radius: 15px; </string>
     <widget class="QLabel" name="label_11">
      <property name="geometry">
       <rect>
-       <x>740</x>
-       <y>570</y>
-       <width>121</width>
+       <x>730</x>
+       <y>820</y>
+       <width>101</width>
        <height>41</height>
       </rect>
      </property>
@@ -710,7 +738,7 @@ border-radius: 15px; </string>
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>570</y>
+       <y>820</y>
        <width>131</width>
        <height>41</height>
       </rect>
@@ -736,7 +764,7 @@ border-radius: 15px; </string>
      <property name="geometry">
       <rect>
        <x>170</x>
-       <y>570</y>
+       <y>820</y>
        <width>131</width>
        <height>41</height>
       </rect>
@@ -762,7 +790,7 @@ border-radius: 15px; </string>
      <property name="geometry">
       <rect>
        <x>330</x>
-       <y>570</y>
+       <y>820</y>
        <width>131</width>
        <height>41</height>
       </rect>
@@ -873,9 +901,9 @@ color: rgb(255, 0, 0);</string>
     <widget class="QLabel" name="label_34">
      <property name="geometry">
       <rect>
-       <x>1110</x>
+       <x>1080</x>
        <y>40</y>
-       <width>201</width>
+       <width>171</width>
        <height>71</height>
       </rect>
      </property>
@@ -910,7 +938,7 @@ color: rgb(255, 0, 0);
     <widget class="Line" name="line_24">
      <property name="geometry">
       <rect>
-       <x>1090</x>
+       <x>1060</x>
        <y>0</y>
        <width>20</width>
        <height>131</height>
@@ -929,7 +957,7 @@ color: rgb(255, 0, 0);
     <widget class="QLabel" name="label_23">
      <property name="geometry">
       <rect>
-       <x>950</x>
+       <x>910</x>
        <y>20</y>
        <width>141</width>
        <height>41</height>
@@ -1017,7 +1045,7 @@ color: rgb(170, 85, 127);</string>
     <widget class="QLabel" name="label_24">
      <property name="geometry">
       <rect>
-       <x>950</x>
+       <x>910</x>
        <y>80</y>
        <width>141</width>
        <height>41</height>
@@ -1048,16 +1076,6 @@ color: rgb(255, 255, 255);</string>
      </property>
     </widget>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>1366</width>
-     <height>21</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
